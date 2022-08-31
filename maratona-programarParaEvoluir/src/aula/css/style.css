@@ -1,0 +1,63 @@
+h1 {
+    /*esse é um bloco de declaração, e o h1 é SELETOR, que pode ser o nome por tag, class, id*/
+    color: blue;
+    background-color:
+        lightgrey;
+    font-family: cursive;
+    margin: 50px;
+    padding: 20px;
+}
+
+#desire {
+    font-size: 50px;
+
+}
+
+.personagens-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+#personagem1 {
+    /*o ID # só pode ser usado para uma tag, se eu usar em mais de uma o CSS não irá reconhecer.*/
+}
+
+.personagem-secundario {
+    /*Já o seletor class pode ser usado para mais de uma tag, aqui uso o . e o nome da class*/
+}
+/*Essas são as 3 formas de seletores que temos no CSS*/
+span {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    padding: 20px;
+}
+
+/* div {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+} */
+.pai{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 200px;
+
+
+}
+.filha{
+    background-color: plum;
+    border: 1px solid salmon;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    
+}
+
+/* 
+div {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+} */
